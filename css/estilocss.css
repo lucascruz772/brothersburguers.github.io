@@ -3,6 +3,10 @@
   section{ width:auto; }
   }
 
+
+ html{
+   scroll-behavior: smooth;
+ } 
 /*Configuração Body*/
 .foto-perfil {
   height: 80%;
