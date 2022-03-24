@@ -21,7 +21,7 @@ html {
 
 .pt-5, .py-5 {
   padding-top: 3rem!important;
-  background: #190a2b;
+  background: linear-gradient(black,#190a2b);
 }
 
 .box-shadow{
@@ -47,7 +47,8 @@ html {
 }
 
 .corInicio {
-  background-color: #190a2b;
+  background-color: black;
+
 }
 .corPrimaria {
   background-color: #00FF00;
@@ -63,7 +64,6 @@ p {
   color: black !important;
 }
 .subtitulo {
-  font-family: Arial, Helvetica, sans-serif;
   color: white !important;
   padding-bottom: 30px;
 }
@@ -72,13 +72,7 @@ p {
   margin-bottom: 0px;
 }
 
-h2 {
-  padding-top: 30px;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 /*Configuração botoes*/
 #pedir {
@@ -130,19 +124,33 @@ h2 {
   padding-bottom: 60px;
 }
 
+.bordacima{
+  margin-top: 20px;
+}
+
 /*Configuração Titulos*/
+h2 {
+  padding-top: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+}
+
 h4 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  font-family: 'Cinzel', serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 30px;
   padding-bottom: 60px;
+
 }
+
 h5 {
   padding-bottom: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /*Configuração Imagem*/
 .card-img-top {
@@ -155,8 +163,9 @@ h5 {
 
 /*mapa*/
 .map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
+  overflow:hidden;
+  padding-bottom: 200px;
+  padding-left: 300px;
   position: relative;
   height: 0;
 }
